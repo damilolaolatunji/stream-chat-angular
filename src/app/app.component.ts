@@ -54,8 +54,6 @@ export class AppComponent {
         watch: true,
         state: true,
       });
-
-      console.log(this.channelList);
     } catch (err) {
       console.log(err);
       return;
