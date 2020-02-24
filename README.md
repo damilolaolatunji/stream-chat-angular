@@ -1,27 +1,21 @@
-# AngularChat
+# Build a Chat App with Stream and Angular 9
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+Tutorial:
 
-## Development server
+# Pre-requisites
+- Make sure you have Node.js (version 8 or later) and [yarn](https://yarnpkg.com/lang/en/docs/install/) installed on your machine.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Build instructions
+- Clone this repository and `cd` into it.
+- Run `yarn` to install the dependencies
+- See tutorial for notes on how to get the required credentials from Stream.
+- Rename the `.env.example` file to `.env` and update it with your Stream credentials.
+- Run `node server.js` from within the project root to start the Node server on port 5500.
+- Run `ng serve` from the project root to start the Angular app development server. View http://localhost:4200 in your browser.
 
-## Code scaffolding
+## Built With
+- [Angular 9](https://angular.io) - For creating the application frontend
+- [Stream Chat]https://getstream.io/chat/) - Chat features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Licence
+[MIT](https://opensource.org/licenses/MIT)
