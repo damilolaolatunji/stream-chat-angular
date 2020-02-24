@@ -15,7 +15,7 @@ Tutorial:
 
 ## Built With
 - [Angular 9](https://angular.io) - For creating the application frontend
-- [Stream Chat]https://getstream.io/chat/) - Chat features
+- [Stream Chat](https://getstream.io/chat/) - Chat features
 
 ## Licence
-[MIT](https://opensource.org/licenses/MIT)
+- [MIT](https://opensource.org/licenses/MIT)
